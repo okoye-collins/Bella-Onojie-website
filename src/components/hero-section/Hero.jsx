@@ -1,4 +1,5 @@
 import './Hero.css'
+import prototype from '../../assets/img/Iphone-1.png'
 
 const Hero = () => {
     return ( 
@@ -16,6 +17,9 @@ const Hero = () => {
                     <button className="btn btn-active"><h3>Playstore</h3></button>
                     <button className="btn  btn-inactive"><h3>App store</h3></button>
                 </div>
+            </div>
+            <div className="hero-prototype-img">
+                <img src={prototype} alt="" />
             </div>
         </section>
      );
