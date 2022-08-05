@@ -1,9 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Poppins:wght@600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 :root{
     --primary-color: #FA4A0C;
+    --font-family-poppins: Poppins, sans-serif;
+    --font-family-Montserrat: Montserrat, sans-serif;
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 90%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
 }
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* general Style */
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+  }
+
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.btn-active{
+    background-color: var(--primary-color);
+}
+
+.btn-inactive{
+    border: 1px solid white;
+}
+
+.btn-inactive:hover{
+    background-color: var(--primary-color);
+}
+
+h2, h3, h4{
+    font-family: var(--font-family-Montserrat);
+    font-weight: 700;
+}
+
+h2{
+    size: 40px;
+    line-height: 57px;
+}
+
+h3, h4{
+    size: 24px;
+    line-height: 36px;
+}
+
+h4{
+    font-weight: 500;
+}
+
+
+ /* ============= MEDIA QUERY (Medium Devices) =========== */
+
+ @media screen and (max-width: 1024px){
+
+    .container{
+      width: var(--container-width-md);
+    }
+
+  }
+ 
+ 
+   /* ============= MEDIA QUERY (Small Devices) =========== */
+ 
+   @media screen and (max-width: 600px){
+
+    .container{
+    width: var(--container-width-sm);
+    }
+
+   }
