@@ -77,9 +77,10 @@
 
     .hero-prototype-img{
         margin: -4rem 0 0 -2rem;
+        width: 100%;
     }
 
     .hero-prototype-img img{
-        width: 380px;
+        width: 100%;
     }
 }
