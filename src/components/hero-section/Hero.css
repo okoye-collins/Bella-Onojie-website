@@ -1,5 +1,5 @@
 #hero-section {
-    margin-top: 5.8rem;
+    /* margin-top: 5.8rem; */
     background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../assets/img/hero-section.png');
     height: 80vh;
     background-size: cover;
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 600px) {
     #hero-section {
-        margin-top: 6.4rem;
+        /* margin-top: 6.4rem; */
         width: 100%;
         height: 80vh;
         background-position: center;
@@ -64,6 +64,7 @@
     .hero-container-content h4{
         padding: 0 1.5rem;
         line-height: 30px;
+        color: white;
     }
 
     .hero-btn .btn{

@@ -3,13 +3,21 @@ import logo from '../../assets/img/logo.png'
 import menu from '../../assets/img/menu.png'
 import close from '../../assets/img/close.png'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 const Navbar = () => {
 
     const [menuIcon, setmenuIcon] = useState(menu)
     const [displaymenu, setdisplayMenu] = useState(false)
+
+    // sticky navbar
+    const [stickyClass, setstickyclass] = useState('')
+
+    const stickNavbar= () => {
+        let windowHeight = window.screenY
+    }
+
 
     const handlemenu = (close, e) =>{
         if(menuIcon == menu){
