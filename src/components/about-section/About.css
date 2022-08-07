@@ -85,12 +85,16 @@
         display: flex;
         flex-direction: column-reverse;
     }
-
-    .row--2-col-1 img{
-        margin-left: 0rem;
-    }
     
     .col-content{
         margin-top: 25px;
+    }
+    .row--2-col-1 img{
+        margin-left: 2rem;
+    }
+
+    /* Ajusiting the position of the prototype img */
+    .img-pro{
+        margin-left: 2rem;
     }
 }

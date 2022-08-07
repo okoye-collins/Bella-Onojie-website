@@ -45,7 +45,7 @@ const Navbar = () => {
 
                 <ul className={displaymenu? 'menu-item display-list': 'menu-item'}>
                     <li><a href="#hero-section" className='active'>Home</a></li>
-                    <li><a href="#">Product</a></li>
+                    <li><a href="#about-section">Product</a></li>
                     <li><a href="#">Faq</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
