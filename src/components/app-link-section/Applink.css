@@ -1,0 +1,24 @@
+.app-link-section{
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('../../assets/img/app_link.png');
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.app-loink-contianer{
+    text-align: center;
+    height: 60vh;
+    padding-top: 5rem;
+    color: white;
+}
+
+.app-loink-contianer h2{
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .app-link-section{
+        width: 100%;
+    }
+
+}

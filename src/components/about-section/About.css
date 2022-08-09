@@ -21,6 +21,7 @@
 
 #about-section h3{
     text-align: center;
+    /* padding-top: 10px; */
 }
 
 .row{
@@ -63,7 +64,7 @@
     #about-section h3{
         border-bottom: 1px solid grey;
         border-bottom-width: 1px;
-        padding-bottom: 2rem;
+        padding: 1rem;
     }
 
     .row{
@@ -77,6 +78,7 @@
         margin-left: 0rem;
         padding: 0px;
     }
+
     .row:nth-child(3),.row:nth-child(4){
         margin-top: 0rem;
     }

@@ -23,12 +23,12 @@ const About = () => {
             </div>
             <div className="row row--2-about col-content-i">
                 <div className="row--2-col-2 ">
-                    <h4>Create an account</h4>
+                    <h4>Explore varieties</h4>
                     <h2>
-                        Create/login to an existing account to get started
+                        Shop for your favorites meal as e dey hot.
                     </h2>
                     <p>
-                        An account is created with your email and a desired password.
+                        Shop for your favorite meals or drinks and enjoy while doing it.
                     </p>
                 </div>
                 <div className="row--2-col-1">
@@ -40,9 +40,9 @@ const About = () => {
                     <img src={prototype_3} alt="" className='img-pro'/>
                 </div>
                 <div className="row--3-col-1 col-content">
-                    <h4>Create an account</h4>
+                    <h4>Checkout</h4>
                     <h2>
-                        Create/login to an existing account to get started
+                        When you done check out and get it delivered.
                     </h2>
                     <p>
                         An account is created with your email and a desired password.

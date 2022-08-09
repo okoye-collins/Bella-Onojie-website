@@ -5,6 +5,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    position: relative;
+    overflow: visible;
 }
 
 .hero-container{
@@ -27,13 +29,16 @@
 }
 
 .hero-btn button{
+    position: relative;
     margin: 0 1rem;
     color: white;
+    z-index: 20;
 }
 
 .hero-prototype-img{
     position: absolute;
     width: 100%;
+    z-index: 0;
 }
 
 .hero-prototype-img{

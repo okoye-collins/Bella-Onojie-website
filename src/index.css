@@ -65,6 +65,7 @@ h2, h3, h4{
 h2{
     size: 40px;
     line-height: 57px;
+    color: #252B42;
 }
 
 h3, h4{
